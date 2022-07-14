@@ -9,6 +9,7 @@ body{
     margin: 0 auto;
 }
 
+/*HEADER*/
 header{
     height: 10vh;
     background-color: black;
@@ -24,8 +25,10 @@ header{
     border: 1px solid lightgray;
 }
 
+/*MAIN*/
 main{
-    height: 80vh;
+   height: 80vh;
+   width: calc(100% / 7 -30px);
     overflow: scroll;
     background-color: black;
     display: flex;
@@ -33,8 +36,11 @@ main{
 }
 
 .card{
-    height: 300px;
     position: relative;
+    width: 200px;
+    height: 300px;
+    margin-right: 5px;
+    margin-bottom: 5px;
 }
 
 img{
@@ -49,6 +55,7 @@ img{
     background-color: gray;
 }
 
+/*FOOTER*/
 footer{
     height: 10vh;
     background-color: lightgrey;
