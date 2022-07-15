@@ -20,16 +20,14 @@ header{
 .head1{
     color: white;
     font-size: 10px;
-    background-color: grey;
     padding-top: 15px;
-    border: 1px solid lightgray;
+    margin-right: 10px;
 }
 
 /*MAIN*/
 main{
    height: 80vh;
-   width: calc(100% / 7 -30px);
-    overflow: scroll;
+   overflow: scroll;
     background-color: black;
     display: flex;
     flex-wrap: wrap;
@@ -38,9 +36,9 @@ main{
 .card{
     position: relative;
     width: 200px;
-    height: 300px;
+    height: 200px;
     margin-right: 5px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 img{
@@ -80,8 +78,8 @@ footer{
 
 }
 
-.part3{
-    background-color: grey;
+.part3 button{
+    background-color: gray;
     color: red;
     font-size: 15px;
     text-align: center;
